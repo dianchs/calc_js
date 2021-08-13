@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+.bunner{
+    width: 100%;
+    height: 100vh;
+    background: url('https://www.meme-arsenal.com/memes/d065a12ca62f5b8052f2ae58a501fe61.jpg') center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 400px;
+    height: 200px;
+    background:rgba(250, 249, 249, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+}
+.card .content{
+    padding: 10px;
+}
+.card .content input{
+    width: 100%;
+    padding: 10px 0;
+    padding-left: 5px;
+    margin: 5px 0;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.inlinebtn{
+    display: flex;
+    justify-content: space-around;
+}
+.inlinebtn button{
+    width: 18%;
+    border: 0;
+    color: white;
+    background: rgb(0, 0, 0, 0.9);
+    outline: white;
+    padding:  5px 0;
+    border-radius:  5px;
+    cursor: pointer;
+}
+.inlinebtn button:nth-child(5){
+    color: red;
+    font-weight: bold;
+}
